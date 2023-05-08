@@ -24,8 +24,8 @@ debug = 0
 
 for i in range(1,200):
 
-  os.system('clear')
-
+  os.system('cls||clear')
+  
   if car1.find("\n|") > 0:
     car1 = car1 + "    " + "Green win!"
     winner = 1
